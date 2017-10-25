@@ -101,7 +101,7 @@ module Enumerable
   end
 
 
-  def my_none?
+  def my_count
    i = -1
    selected = []
    self.length.times do
@@ -113,7 +113,7 @@ module Enumerable
        end
      end
    end
-   return selected.lenth
+   return selected.length
   end
 
 
